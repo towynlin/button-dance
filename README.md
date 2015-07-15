@@ -54,6 +54,8 @@ You can't like your own animals.
 When someone likes one of your animals,
 your button dances rainbows for 5 seconds.
 
+Each new user starts with 3 points so they can post a picture of a dog, bird or snake. But not a cat. Because cats are rare.
+
 Each animal requires different amounts of karma to post:
 
 - snake: 1
