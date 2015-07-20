@@ -1,5 +1,8 @@
 # Button Dance
 
+TODO: add deploy on heroku button
+https://devcenter.heroku.com/articles/heroku-button
+
 Your company and product are called Button Dance.
 
 People buy a Button Dance, and when it arrives they go to
@@ -67,3 +70,22 @@ Functions exposed:
 
 - set karma
 - dance rainbows
+
+# Notes
+
+User gets device home and opens box, is told to sign up on the website.
+
+Real website MUST use HTTPS; this one doesn't.
+
+Before the animal.button.dance server can make API calls to Particle
+it must have a client ID and secret, scoped to the Button Dance organization.
+
+
+## Create User
+
+The first thing the user does is create a new user on animal.button.dance.
+
+In addition to setting a cookie in the browser as a session key for
+animal.button.dance, an access token for api.particle.io is also stored
+in the browser. The animal.button.dance server creates a customer in Particle's
+systems and requests a token scoped to that customer.

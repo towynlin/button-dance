@@ -1,0 +1,10 @@
+{
+	"event": "button",
+	"url": "http://animal.button.dance/animals",
+	"requestType": "POST",
+	"mydevices": true,
+	"auth": {
+		"username": "particle-webhook",
+		"password": "Use an actual password."
+	}
+}

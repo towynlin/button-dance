@@ -1,3 +1,4 @@
+var UsersController = require('./controllers/UsersController');
 var ScoresController = require('./controllers/ScoresController');
 var AnimalsController = require('./controllers/AnimalsController');
 var LikesController = require('./controllers/LikesController');
@@ -7,8 +8,13 @@ module.exports = [
 		method: 'GET',
 		path: '/',
 		handler: function handleRoot(request, reply) {
-			return reply.redirect('/scores');
+			return reply.redirect('/animals');
 		}
+	},
+	{
+		method: 'POST',
+		path: '/users/',
+		handler: UsersController.create
 	},
 	{
 		method: 'GET',
@@ -23,11 +29,13 @@ module.exports = [
 	{
 		method: 'POST',
 		path: '/animals',
-		handler: AnimalsController.create
+		handler: AnimalsController.create,
+		config: {}// auth: 'github' }
 	},
 	{
 		method: 'POST',
 		path: '/likes',
-		handler: LikesController.create
+		handler: LikesController.create,
+		config: {}// auth: 'github' }
 	}
 ];

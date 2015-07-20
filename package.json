@@ -32,7 +32,9 @@
 	"homepage": "https://github.com/towynlin/button-dance#readme",
 	"dependencies": {
 		"pg": "^4.4.0",
-		"hapi": "^8.8.0"
+		"hapi": "^8.8.0",
+		"bell": "^4.0.1",
+		"spark": "^0.5.9"
 	},
 	"devDependencies": {
 		"mocha": "^2.2.5"
