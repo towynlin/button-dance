@@ -1,42 +1,42 @@
 {
-	"name": "button-dance",
-	"version": "0.0.1",
-	"description": "Social IoT game as demo product for the Particle platform",
-	"main": "server.js",
-	"scripts": {
-		"test": "mocha"
-	},
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/towynlin/button-dance.git"
-	},
-	"keywords": [
-		"particle",
-		"photon",
-		"button",
-		"iot",
-		"product",
-		"heroku",
-		"animal",
-		"simple"
-	],
-	"author": {
-		"name": "Zachary Crockett",
-		"email": "zachary@particle.io",
-		"url": "https://about.me/zachary.crockett"
-	},
-	"license": "Apache-2.0",
-	"bugs": {
-		"url": "https://github.com/towynlin/button-dance/issues"
-	},
-	"homepage": "https://github.com/towynlin/button-dance#readme",
-	"dependencies": {
-		"pg": "^4.4.0",
-		"hapi": "^8.8.0",
-		"bell": "^4.0.1",
-		"spark": "^0.5.9"
-	},
-	"devDependencies": {
-		"mocha": "^2.2.5"
-	}
+  "name": "button-dance",
+  "version": "0.0.1",
+  "description": "Social IoT game as demo product for the Particle platform",
+  "main": "server.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/towynlin/button-dance.git"
+  },
+  "keywords": [
+    "particle",
+    "photon",
+    "button",
+    "iot",
+    "product",
+    "heroku",
+    "animal",
+    "simple"
+  ],
+  "author": {
+    "name": "Zachary Crockett",
+    "email": "zachary@particle.io",
+    "url": "https://about.me/zachary.crockett"
+  },
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/towynlin/button-dance/issues"
+  },
+  "homepage": "https://github.com/towynlin/button-dance#readme",
+  "dependencies": {
+    "pg": "^4.4.0",
+    "hapi": "^11.0.4",
+    "bell": "^4.0.1",
+    "spark": "^0.5.9"
+  },
+  "devDependencies": {
+    "mocha": "^2.2.5"
+  }
 }
